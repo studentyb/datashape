@@ -31,6 +31,7 @@ from .internal_utils import IndexCallable, isidentifier
 # Classes of unit types.
 DIMENSION = 1
 MEASURE = 2
+NEWNAME = 3
 
 
 class Type(type):
